@@ -262,15 +262,11 @@ aws-three-tier-web-architecture-workshop/
 │       └── package-lock.json
 │
 ├── screenshots/
-│   ├── dashboard.png
-│   ├── architecture.png
-│   ├── transactions.png
-│   └── about.png
 │
 ├── README.md
 ├── LICENSE
 └── CONTRIBUTING.md
-📸 Screenshots
+
 
 Screenshots of the application are available in the screenshots directory.
 
