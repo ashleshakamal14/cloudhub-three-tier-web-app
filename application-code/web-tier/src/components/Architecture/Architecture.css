@@ -1,0 +1,222 @@
+.architecture-page {
+  min-height: 100vh;
+
+  padding: 70px 8%;
+
+  box-sizing: border-box;
+
+  background: #080b14;
+
+  color: #ffffff;
+}
+
+.architecture-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: flex-start;
+
+  gap: 30px;
+
+  margin-bottom: 35px;
+}
+
+.architecture-header h1 {
+  margin: 0;
+
+  font-size: 40px;
+}
+
+.architecture-header p:not(.eyebrow) {
+  max-width: 650px;
+
+  color: #8995a8;
+
+  line-height: 1.7;
+}
+
+.eyebrow {
+  color: #7dd3fc;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+.architecture-status {
+  padding: 11px 16px;
+
+  background: #101725;
+
+  border: 1px solid #1d2a3d;
+
+  border-radius: 30px;
+
+  color: #aeb9c9;
+
+  font-size: 12px;
+
+  white-space: nowrap;
+}
+
+.architecture-status span {
+  display: inline-block;
+
+  width: 8px;
+  height: 8px;
+
+  margin-right: 8px;
+
+  border-radius: 50%;
+
+  background: #22c55e;
+}
+
+.architecture-image-card {
+  display: flex;
+
+  justify-content: center;
+
+  padding: 30px;
+
+  background: #05070d;
+
+  border: 1px solid #1d2a3d;
+
+  border-radius: 18px;
+}
+
+.architecture-image-card img {
+  width: 100%;
+
+  max-width: 1000px;
+
+  height: auto;
+}
+
+.tier-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 18px;
+
+  margin-top: 20px;
+}
+
+.tier-card {
+  padding: 27px;
+
+  background: #101725;
+
+  border: 1px solid #1d2a3d;
+
+  border-radius: 14px;
+}
+
+.tier-number {
+  color: #7dd3fc;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+.tier-card h2 {
+  margin: 12px 0 8px;
+
+  font-size: 20px;
+}
+
+.tier-card p {
+  color: #8995a8;
+
+  font-size: 13px;
+
+  line-height: 1.7;
+}
+
+.technology {
+  margin-top: 20px;
+
+  padding-top: 15px;
+
+  border-top: 1px solid #1d2a3d;
+}
+
+.technology strong {
+  display: block;
+
+  color: #dce5f0;
+
+  font-size: 13px;
+}
+
+.technology span {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #68778c;
+
+  font-size: 10px;
+}
+
+.architecture-flow {
+  margin-top: 20px;
+
+  padding: 24px;
+
+  background: #101725;
+
+  border: 1px solid #1d2a3d;
+
+  border-radius: 14px;
+}
+
+.flow {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 16px;
+
+  margin-top: 18px;
+
+  flex-wrap: wrap;
+}
+
+.flow div {
+  padding: 11px 16px;
+
+  background: #142033;
+
+  border: 1px solid #243247;
+
+  border-radius: 8px;
+
+  color: #dbe4f0;
+
+  font-size: 11px;
+
+  font-weight: 600;
+}
+
+.flow span {
+  color: #7dd3fc;
+}
+
+@media (max-width: 900px) {
+  .architecture-header {
+    flex-direction: column;
+  }
+
+  .tier-grid {
+    grid-template-columns: 1fr;
+  }
+}

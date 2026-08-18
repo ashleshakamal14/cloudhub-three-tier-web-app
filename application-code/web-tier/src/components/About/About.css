@@ -1,0 +1,115 @@
+.about-page {
+  min-height: 100vh;
+
+  padding: 80px 10%;
+
+  box-sizing: border-box;
+
+  background: #080b14;
+
+  color: #ffffff;
+}
+
+.about-page h1 {
+  margin: 0;
+
+  font-size: 42px;
+}
+
+.about-intro {
+  max-width: 700px;
+
+  margin: 18px 0 45px;
+
+  color: #8995a8;
+
+  line-height: 1.8;
+}
+
+.about-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 18px;
+}
+
+.about-card {
+  padding: 28px;
+
+  background: #101725;
+
+  border: 1px solid #1d2a3d;
+
+  border-radius: 14px;
+}
+
+.about-card span {
+  color: #7dd3fc;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 1.5px;
+}
+
+.about-card h2 {
+  margin: 12px 0 8px;
+}
+
+.about-card p {
+  margin: 0;
+
+  color: #8995a8;
+
+  font-size: 13px;
+
+  line-height: 1.7;
+}
+
+.project-highlight {
+  margin-top: 20px;
+
+  padding: 25px;
+
+  background: #101725;
+
+  border: 1px solid #1d2a3d;
+
+  border-radius: 14px;
+}
+
+.concepts {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-top: 18px;
+}
+
+.concepts span {
+  padding: 9px 13px;
+
+  background: #142033;
+
+  border: 1px solid #243247;
+
+  border-radius: 20px;
+
+  color: #aebbd0;
+
+  font-size: 11px;
+}
+
+@media (max-width: 700px) {
+  .about-page {
+    padding: 50px 25px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
